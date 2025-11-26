@@ -4,9 +4,9 @@ services:
     image: postgres:15
     restart: always
     environment:
-      POSTGRES_USER: admin
-      POSTGRES_PASSWORD: X23wd14!
-      POSTGRES_DB: despesaCerta_db
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: database_name
     ports:
       - "5432:5432"
     volumes:
